@@ -7,3 +7,14 @@ h2 {
   color: maroon;
   margin-left: 20px
 }
+
+.color-block {
+    background-color: #4CAF50; /* Green background */
+    color: black;              /* White text */
+    padding: 20px;             /* Space inside the block */
+    width: 300px;              /* Fixed width */
+    text-align: left;        /* Center the text */
+    border-radius: 8px;        /* Rounded corners */
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
