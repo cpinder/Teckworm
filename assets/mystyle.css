@@ -8,9 +8,9 @@ h2 {
   margin-left: 20px
 }
 
-.green-color-block {
+.color-block-GRN {
     background-color: #4CAF50; /* Green background */
-    color: black;              /* White text */
+    color: black;              /* black text */
     padding: 20px;             /* Space inside the block */
     width: 300px;              /* Fixed width */
     text-align: left;        /* Center the text */
@@ -19,8 +19,8 @@ h2 {
     font-size: 18px;
 }
 
-.red-color-block {
-  background-color: red
+.color-block-RD {
+  background-color: #8b0000;
   padding: 20px;             /* Space inside the block */
   width: 300px;              /* Fixed width */
   border-radius: 8px;        /* Rounded corners */
