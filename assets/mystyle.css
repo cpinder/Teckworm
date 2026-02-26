@@ -8,7 +8,7 @@ h2 {
   margin-left: 20px
 }
 
-.color-block {
+.green-color-block {
     background-color: #4CAF50; /* Green background */
     color: black;              /* White text */
     padding: 20px;             /* Space inside the block */
@@ -17,4 +17,11 @@ h2 {
     border-radius: 8px;        /* Rounded corners */
     font-family: Arial, sans-serif;
     font-size: 18px;
+}
+
+.red-color-block {
+  background-color: red
+  padding: 20px;             /* Space inside the block */
+  width: 300px;              /* Fixed width */
+  border-radius: 8px;        /* Rounded corners */
 }
