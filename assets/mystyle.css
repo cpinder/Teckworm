@@ -8,7 +8,7 @@ h2 {
   margin-left: 20px
 }
 
-colorblock-GRN {
+.colorblock-GRN {
     background-color: Grey; /* Green background */
     color: black;              /* black text */
     padding: 20px;             /* Space inside the block */
@@ -18,7 +18,7 @@ colorblock-GRN {
     font-family: Arial, sans-serif;
     font-size: 18px;
 }
-promo-banner {
+.promo-banner {
   background-color: blue;
   color: #1aff66;
   padding: 15px;
@@ -27,13 +27,10 @@ promo-banner {
   font-size: 16px;
 }
 
-banner-link {
+.banner-link {
   color: #4CAF50;
   text-decoration: underline;
   margin-left: 15px;
   font-weight: bold;
 }
 
-banner-link:hover {
-  color: #ffffff;
-}
