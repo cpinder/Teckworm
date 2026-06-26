@@ -8,9 +8,9 @@ h2 {
   margin-left: 20px
 }
 
-.colorblock-GRN {
-    background-color: Grey; /* Green background */
-    color: black;              /* black text */
+.colorblock-Gray {
+    background-color: Grey; /* Grey background */
+    color: maroon;              /* black text */
     padding: 20px;             /* Space inside the block */
     width: 300px;              /* Fixed width */
     text-align: left;        /* Center the text */
@@ -20,8 +20,8 @@ h2 {
 }
 .promo-banner {
   background-color: cornflowerblue;
-  color: #DarkGoldenRod;
-  padding: 50px;
+  color: DarkGoldenRod;
+  padding: 20px;
   text-align: center;
   font-family: Arial, sans-serif;
   font-size: 16px;
