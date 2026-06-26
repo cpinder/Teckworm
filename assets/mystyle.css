@@ -9,8 +9,8 @@ h2 {
 }
 
 .colorblock-Gray {
-    background-color: Grey; /* Grey background */
-    color: maroon;              /* black text */
+    background-color: #808080; /* Grey background */
+    color: #800000;              /* maroon text */
     padding: 20px;             /* Space inside the block */
     width: 300px;              /* Fixed width */
     text-align: left;        /* Center the text */
