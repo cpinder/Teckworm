@@ -32,5 +32,10 @@ h2 {
   text-decoration: underline;
   margin-left: 15px;
   font-weight: bold;
-}
 
+ .table {
+  {
+   border: 2px solid black;
+   padding: 8px;
+ }
+{
