@@ -19,7 +19,7 @@ h2 {
     font-size: 18px;
 }
 .promo-banner {
-  background-color: cornflowerblue;
+  background-color: #808080;
   color: DarkGoldenRod;
   padding: 20px;
   text-align: center;
@@ -28,7 +28,7 @@ h2 {
 }
 
 .banner-link {
-  color: #4CAF50;
+  color: #800000;
   text-decoration: underline;
   margin-left: 15px;
   font-weight: bold;
