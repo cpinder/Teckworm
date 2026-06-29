@@ -41,6 +41,7 @@
 .column {
   float: left;
   width: 50%;
+  column-width: 300px;
 }
 
 /* Clear floats after the columns */
