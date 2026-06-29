@@ -38,16 +38,10 @@
    padding: 8px;
  }
 
-.column {
-  float: left;
-  width: 50%;
-  column-width: 300px;
+.column row {
+display: flex;
 }
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+column {
+flex: 50%;
 }
 
