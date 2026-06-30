@@ -3,10 +3,30 @@
 <html lang=”en”> 
 <link rel="stylesheet" href="/assets/mystyle.css">
 <head> 
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
  
 <title>Home</title> 
 </head> 
-
+<body>
  <!--Top Banner--> 
  <div class ="promo-banner">
    
@@ -15,7 +35,7 @@
    <a href="assets/ITIL.html" Target="_blank">ITIL v5</a>
    <a href="assets/Contact.html" Target="_blank">Contact Me</a>
  </div>
-<body> 
+
 <H1>Welcome to Teckworm.com</H1>
 
  <!--Two columns pic / welcome message-->
@@ -33,22 +53,10 @@
 </div>
  
   <img src="assets/images/Teckworm website/chris in lab, small.jpg" alt="Chris in computer  lab">
-   
-<div class="row">
-<div class="column" style="background-color:lightblue;">
-<h2>Column 1</h2>
-<p>Some text..</p>
-</div>
-<div class="column" style="background-color:blue;">
-<h2>Column 2</h2>
-<p>Some text..</p>
-</div>
-</div>
 
- 
-  <div class = "colorblock-Gray">
-  
-  <p><a href="mailto:teckworminfo@gmail.com">Email me</a></p>
+ <!--Contact info-->
+   <div class = "colorblock-Gray">
+    <p><a href="mailto:teckworminfo@gmail.com">Email me</a></p>
   </div>
 
  <hr>
