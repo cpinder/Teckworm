@@ -38,10 +38,10 @@
    padding: 8px;
  }
 
-.column row {
+.column-row {
 display: flex;
 }
-column {
+.column {
 flex: 50%;
 }
 
