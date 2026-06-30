@@ -33,15 +33,5 @@
   margin-left: 15px;
   font-weight: bold;
 
- .table {
-     border: 2px solid black;
-   padding: 8px;
- }
 
-.column-row {
-display: flex;
-}
-.column {
-flex: 50%;
-}
 
