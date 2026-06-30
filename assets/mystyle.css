@@ -33,5 +33,16 @@
   margin-left: 15px;
   font-weight: bold;
 
+.column {
+  float: left;
+  width: 50%;
+  width: 100%;
+}
 
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
