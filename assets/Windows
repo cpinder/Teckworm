@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Windows Tips, Tricks & Fixes</title>
+
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background: #f7f7f7;
+      color: #222;
+    }
+
+    header {
+      background: #0d47a1;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    section {
+      max-width: 900px;
+      margin: 30px auto;
+      background: #fff;
+      padding: 25px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    }
+
+    h2, h3, h4, h5 {
+      color: #0d47a1;
+      margin-top: 25px;
+    }
+
+    ul, ol {
+      margin-left: 20px;
+    }
+
+    code {
+      background: #eee;
+      padding: 2px 4px;
+      border-radius: 4px;
+    }
+
+    kbd {
+      background: #333;
+      color: #fff;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Windows Tips, Tricks & Fixes</h1>
+  <p>A practical guide for understanding, configuring, and troubleshooting Windows systems.</p>
+</header>
+
+<section id="windows-tips-tricks-fixes">
+
+  <!-- Your previously generated content goes here -->
+  <!-- I am inserting the full section you approved -->
+
+  <h2>Windows Tips, Tricks and Fixes</h2>
+
+  <article>
+    <h3>About the Windows Operating System</h3>
+    <p>
+      The operating system consists of a number of programs and services that run on a device so humans can interact with and use the device. The OS manages everything, such as hardware resources, internet connections, security features and updates, just to name a few.
+    </p>
+    <p>
+      The OS takes input from devices like the keyboard, manipulates programs based on those inputs, and then performs actions such as sending data to the router so it can be transmitted across the internet.
+    </p>
+
+    <h4>Common desktop and laptop operating systems</h4>
+    <ul>
+      <li>Windows</li>
+      <li>macOS</li>
+      <li>Linux</li>
+    </ul>
+
+    <h4>Common mobile operating systems</h4>
+    <ul>
+      <li>Android</li>
+      <li>iOS</li>
+    </ul>
+  </article>
+
+  <article>
+    <h3>Windows Architecture Overview</h3>
+    <p>
+      To make it easier to understand Windows, we can break it into three logical parts: the applications we interact with, the system services that coordinate functionality, and the kernel that gives commands to the CPU.
+    </p>
+
+    <h4>Operating system kernel</h4>
+    <p>
+      The kernel takes OS requests from system services and translates those into instructions that are passed to the individual hardware devices inside the computer.
+    </p>
+
+    <h4>System services</h4>
+    <p>
+      System services are software components that interact with other software to coordinate them. They provide higher-level functions that require multiple systems to work together.
+    </p>
+
+    <h4>.NET Framework, Win32 and Apps</h4>
+    <p>
+      The .NET Framework is composed of tools, programming languages and libraries to run and write applications. Win32 apps provide software direct access to system hardware and the highest performance.
+    </p>
+
+    <h4>Types of Windows apps</h4>
+    <ul>
+      <li>Traditional desktop apps (Win32 / .NET)</li>
+      <li>Microsoft Store apps (Windows RT APIs)</li>
+    </ul>
+  </article>
+
+  <article>
+    <h3>The Windows Registry</h3>
+    <p>
+      The registry is a hierarchical database that stores user and computer configuration settings. Registry keys hold things like the file path to an executable, server names and OS settings.
+    </p>
+
+    <h4>Major registry hives</h4>
+    <ul>
+      <li><strong>HKEY_CLASSES_ROOT:</strong> File type associations</li>
+      <li><strong>HKEY_CURRENT_USER:</strong> Settings for the signed‑in user</li>
+      <li><strong>HKEY_LOCAL_MACHINE:</strong> System‑wide configuration</li>
+      <li><strong>HKEY_USERS:</strong> Settings for all users</li>
+      <li><strong>HKEY_CURRENT_CONFIG:</strong> Current hardware profile</li>
+    </ul>
+
+    <p><strong>Important:</strong> Registry changes take effect immediately and cannot be undone.</p>
+  </article>
+
+  <article>
+    <h3>Core Windows Configuration Tools</h3>
+
+    <h4>Settings</h4>
+    <p>Modern interface for configuring system options, devices, accounts, and updates.</p>
+
+    <h4>Control Panel</h4>
+    <p>Classic interface for managing software, devices, networking and more.</p>
+
+    <h5>Key Control Panel areas</h5>
+    <ul>
+      <li>Programs and Features</li>
+      <li>Network and Sharing Center</li>
+      <li>Sound</li>
+      <li>User Accounts</li>
+      <li>Device Manager</li>
+    </ul>
+
+    <h4>Event Viewer</h4>
+    <p>Shows logs for applications, security, setup and system events.</p>
+
+    <h4>Task Manager & Resource Monitor</h4>
+    <p>Monitor processes, performance, memory, disk and network usage.</p>
+
+    <h4>Windows Update</h4>
+    <p>Provides patches, driver updates and security fixes.</p>
+  </article>
+
+  <article>
+    <h3>Windows Fixes and Diagnostic Tips</h3>
+
+    <h4>Find and uninstall a program</h4>
+    <ol>
+      <li>List installed software: <code>Get-WmiObject -Class win32_product</code></li>
+      <li>Locate uninstall string in registry</li>
+      <li>Run uninstall command via <code>msiexec.exe</code></li>
+    </ol>
+
+    <h4>Remove a Windows user profile</h4>
+    <p>Delete the profile key under:</p>
+    <code>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\ProfileList</code>
+  </article>
+
+</section>
+
+</body>
+</html>
