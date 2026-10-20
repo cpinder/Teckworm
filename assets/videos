@@ -1,8 +1,5 @@
-<!--New Video's page>
-
 <!DOCTYPE html> 
- 
-<html lang=”en”> 
+ <html lang=”en”> 
 <link rel="stylesheet" href="/assets/mystyle.css">
 <head>
  <meta charset="UTF-8">
@@ -113,3 +110,4 @@ margin-right: 20px;
   </tr>
    </table>
 </body>
+</html>
