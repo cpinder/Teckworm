@@ -19,16 +19,18 @@
     font-size: 18px;
 }
 
-.promo-banner {
-  background-color: #808080;
-  color: DarkGoldenRod;
-  padding: 20px;
-  font-family: Arial, sans-serif;
-  font-size: 16px;
+.promo-banner a {
+  margin: 0 12px;
+  color: #800000; 
+  text-decoration: none;
+  font-weight: bold;
+  padding: 4px 6px;
+}
 
-  display: flex;
-  justify-content: center;
-  gap: 30px;
+.promo-banner a:not(:last-child)::after {
+  content: " |";
+  color: #800000; 
+  margin-left: 12px;
 }
 
 
