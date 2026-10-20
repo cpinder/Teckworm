@@ -20,7 +20,8 @@
 }
 .promo-banner {
   background-color: #808080;
-  color: DarkGoldenRod;
+  color: #800000; 
+  margin: 0 15px;
   padding: 20px;
   text-align: center;
   font-family: Arial, sans-serif;
